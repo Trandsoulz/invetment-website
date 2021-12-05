@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="why-choose-us.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <style>
+        #important{
+            border-bottom: 2px solid goldenrod;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="nav-1">
+            <iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&amp;theme=dark&amp;pref_coin_id=1505&amp;invert_hover=no" scrolling="auto" marginwidth="0" marginheight="0" border="0" style="border:0;margin:0;padding:0;" width="100%" height="40px" frameborder="0"></iframe>
+        </nav>
+    
+        <nav class="nav-2">
+            <img src="./photos/index-removebg-preview.png" alt="logo" height="40px">
+            <p>
+                +5.26% <br>
+                24 hour price
+            </p>
+            <p>
+                12.820BTC <br>
+                24 hour volume
+            </p>
+            <p>
+                2,231,775 <br>
+                active traders
+            </p>
+            <p>
+                63,971.68 <br>
+                Live Bitcoin price
+            </p>
+
+            <a href="investment-programs.html">INVEST</a>
+
+        </nav>
+        
+        <nav class="nav-3" id="nav-3">
+            <a href="home.html">HOME</a>
+            <a href="investment-programs.html">INVESTMENT PROGRAMS</a>
+            <a href="why-choose-us.html" id="important">WHY CHOOSE US</a>
+        </nav>
+
+        <nav class="nav-4">
+            <img src="./photos/index-removebg-preview.png" alt="logo" height="40px">
+
+            
+               <a href="#" onclick="faButton()"><i class="fa fa-bars menu-toggle-btn"></i></a>
+        </nav>
+
+     </header>
+
+     <aside>WHY CHOOSE US</aside>
+
+     <section>
+        <div>
+            <h1>CORPORATE STRATEGY</h1>
+            <p>Our team is charged with transforming our company to lead in an ever-changing world by providing business analysis and corporate strategy guidance, including informing management decision-making and communicating with external stakeholders</p>
+        </div>
+
+        <div>
+            <h1>BUSINESS OPERATIONS</h1>
+            <p>Our global network of operations professionls centralize knowledge, equip teams with data and technology, and provide the information needed to innovate and deliver for internal stakeholders and clients</p>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div>
+            <h1>HUMAN RESOURCES</h1>
+            <p>Our work focuses on attracting and developing a diverse workforce. We strive to make our company an inclusive place to work twhere every employee feels like they belong and can meaningfully contribute to advancing our purspose</p>
+        </div>
+
+        <div>
+            <h1>INVESTMENTS</h1>
+            <p>We are helping our clients solve their most important investment challenges and strive to deliver persistent, long term investment performance. Our investment professionals benefit from the resources of a world-class technology firm that is differentiated by a team approach, integrated research and risk management</p>
+        </div>
+        
+     </section>
+
+
+     <footer>
+    
+        <div id="footer">
+            <div>
+                <h3><font color='goldenrod'>QUICK LINKS</font></h3>
+                <p>HOME <br> ABOUT US <br> FAQS <br> CONTACT US</p>
+            </div>
+        
+            <div>
+                <h3><font color='goldenrod'>HELP & SUPPORT</font></h3>
+                <p>TERMS AND CONDITIONS <br> ANTI SPAM POLICY <br> PRIVACY POLICY <br> RISK CLOSURE <br> REGISTER <br> SIGN IN</p>
+            </div>
+        
+            <div>
+        
+                    <h3> <font color='goldenrod'>CONTACT US</font></h3>
+                    <p>SUPPORT@IQOPTIONTRADE.COM <br> MON-SUN 24/7 <br> ADDRESS:</p>
+                    <h4 style="margin-bottom: .3rem;"> <font color='goldenrod'>HEAD OFFICE:</font></h4>
+                    <p style="margin-top: 0;"> Mannerheimintie 20 B,F1-00100, <br>
+                        Helsinki, Finland.
+                    </p>
+        
+                    <h4 style="margin-bottom: .3rem;"> <font color='goldenrod'>BRANCH OFFICE:</font></h4>
+                    <p style="margin-top: 0;"> Bt Centre 81 Newgate St, <br>
+                        London, Greater London, <br>
+                        England, EC1A 7AJ
+                    </p>
+        
+            </div>
+            <div>
+                <h3 style="visibility:hidden;">READINGS</h3>
+                <p>
+                    <font color='goldenrod'>$241.07B</font> <br>
+                    MARKET CAP
+                </p>
+                
+                <p>
+                    <font color='goldenrod'>143K</font> <br>
+                    ACTIVE ACCOUNTS
+                </p>
+        
+                <p>
+                    <font color='goldenrod'>518,608</font> <br>
+                    DAILY TRANSACTIONS
+                </p>
+        
+                <p>
+                    <font color='goldenrod'>26+</font> <br>
+                    SUPPORTED COUNTRIES
+                </p>
+            </div>
+        
+        </div>
+    
+        <div style="border: 1.5px solid white; width: 83%; margin: 0 auto;">
+    
+        </div>
+    
+        <p style="background-color: black; margin-bottom: 0; color: white; text-align: center; font-weight: 600; padding-bottom: 1rem;" id="major-footer" ></p>
+    </footer>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
+    <script>
+        let dd = new Date()
+        document.getElementById('major-footer').innerHTML = dd.getFullYear() + ' ' + '&copy All Rights Reserved';
+    </script>
+
+    <script>
+        function faButton() {
+         let nav3 = document.getElementsByClassName('nav-3');
+            
+        let toggleButton = document.getElementsByClassName('menu-toggle-btn');
+
+    let nav3 = document.getElementsByClassName('nav-3');
+
+    toggleButton.addEventListener('click', => {
+    nav3('active')
+    }) 
+         }
+
+    </script>
+
+<!--     
+
+        const toggleButton = document.getElementsByClassName('menu-toggle-btn');
+
+        const nav3 = document.getElementsByClassName('nav-3')[0]
+
+        toggleButton.addEventListener('click', =>{
+            nav3.classList.toggleButton('active')
+        }) -->
+
+    </script>
+
+</body>
+</html>

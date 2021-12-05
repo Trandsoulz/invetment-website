@@ -1,0 +1,32 @@
+
+
+aside {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+section{
+    margin: 1rem;
+    text-align: center;
+}
+
+section div{
+    width: 40%;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 1000px) {
+    #important{
+        border-bottom: 0;
+    }
+}
+
+

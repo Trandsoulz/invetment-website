@@ -1,0 +1,50 @@
+
+
+aside {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+section > div{
+    background-color: goldenrod;
+    color: white;
+    padding: 1rem;
+}
+
+section div > div {
+    background-color: black;
+    margin: 1rem .4rem;
+    padding: 1px;
+}
+
+section div > h3{
+    margin: 0.5rem;
+    text-align: center;
+}
+
+section div{
+    text-align: center;
+    border-radius: .5rem
+}
+
+ section a{
+    padding: .5rem 1rem;
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+    border-radius: .3rem
+}
+
+section a:hover{
+    padding: .6rem 1.2rem;
+}
+

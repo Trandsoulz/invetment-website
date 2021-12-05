@@ -1,0 +1,132 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(./photos/Dubai-pic-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    background-attachment: fixed;
+}
+
+#section1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+#section1 > p{
+    font-size: 4rem;
+    width: 25ch;
+}
+
+main{
+    text-align: center;
+    font-size: x-large;
+}
+
+main h1{
+    margin-top: 0;
+    padding-top: 1.5rem;
+}
+
+.main-1{
+    margin: 2rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 70%;
+}
+
+.main-1-1{
+    width: 50%;
+    width: 40ch;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.main-1-2{
+    width: 50%;
+    font-weight: bold;
+    width: 40ch;
+    font-size: 1.1rem;
+}
+
+.main-1-2 p{
+    margin-left: 1rem;
+}
+
+main a{
+    padding: .7rem 2rem;
+    background-color: goldenrod;
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover{
+    background-color: black;
+    color: #ebd793;
+    transition: 100ms;
+}
+
+aside{
+    color: white;
+    margin-top: 1.5rem;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.aside{
+    width: 20%;
+}
+
+#motivational{
+    background-color: goldenrod;
+    padding: 1.5rem;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#motivational p{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+#section2{
+    background-color: aliceblue;
+    color: black;
+}
+
+#section2-1 h1{
+    font-size: 2.5rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+#section2-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section2-2 img{
+    height: 130px;
+    border-radius: 50%;
+}
+
+.photos{
+    text-align: center;
+}
+
