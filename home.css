@@ -41,21 +41,20 @@ main h1{
     text-align: left;
     display: flex;
     justify-content: space-evenly;
-    font-size: 70%;
 }
 
 .main-1-1{
     width: 50%;
     width: 40ch;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .main-1-2{
     width: 50%;
     font-weight: bold;
     width: 40ch;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .main-1-2 p{
