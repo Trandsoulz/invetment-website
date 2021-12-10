@@ -129,3 +129,19 @@ footer a:hover{
     }
 
 }
+
+
+
+
+
+@media (max-width: 800px) {
+    #footer{
+        margin: 0 0.6rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #readings{
+        display: none;
+    }
+}

@@ -48,3 +48,30 @@ section a:hover{
     padding: .6rem 1.2rem;
 }
 
+
+@media (max-width: 800px) {
+
+    section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    
+    section div{
+        margin: 1.5rem 0;
+    }
+
+    section a{
+        padding: .6rem 2rem;
+        
+    }
+
+    section a:hover{
+        padding: .6rem 2.2rem;
+    }
+    section a:active{
+        padding: .6rem 2.2rem;
+    }
+    
+}    
