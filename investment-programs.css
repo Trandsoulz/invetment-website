@@ -54,12 +54,17 @@ section a:hover{
     section{
         display: flex;
         flex-direction: column;
-        
     }
 
     
     section div{
-        margin: 1.5rem 0;
+        margin: 1.5rem auto;
+        width: 75%;
+        padding-bottom: 1.7rem;
+    }
+
+    section div>div{
+      margin: 0 auto;
     }
 
     section a{
@@ -73,5 +78,5 @@ section a:hover{
     section a:active{
         padding: .6rem 2.2rem;
     }
-    
+
 }    
