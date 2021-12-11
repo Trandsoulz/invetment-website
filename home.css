@@ -134,6 +134,7 @@ aside{
 @media (max-width: 800px) {
     header{
         height: 85vh;
+        background-attachment: local;
     }
 
     .main-1{
