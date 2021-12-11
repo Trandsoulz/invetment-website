@@ -134,7 +134,7 @@ footer a:hover{
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     #footer{
         margin: 0 0.6rem;
         display: flex;
