@@ -58,6 +58,33 @@ body{
     border-radius: 2px;
 }
 
+.nav-5{
+    padding: 2rem;
+    text-align: center;
+    background-color: #242323;
+    display: none;
+}
+
+.nav-5 > a{
+    text-decoration: none;
+    padding: .7rem 1.5rem;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav-5 > a:hover{
+    background-color: white;
+    font-weight: 500;
+    color: goldenrod;
+}
+
+
+
+
+
+
+
 
 footer{
     background-color: black;
@@ -97,6 +124,8 @@ footer a:hover{
         display: none;
     }
 
+
+
     .nav-4{
         display: block;
         background-color: black;
@@ -117,8 +146,6 @@ footer a:hover{
      box-sizing: border-box;
     }
 
-    
-
     .nav-3 a{
         display: block;
         margin: 10px 0;
@@ -128,6 +155,10 @@ footer a:hover{
         display: block;
     }
 
+    .nav-5 {
+        display: block;
+    }
+    
 }
 
 
