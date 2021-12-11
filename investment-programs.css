@@ -48,8 +48,26 @@ section a:hover{
     padding: .6rem 1.2rem;
 }
 
+.iwc{
+    display: table;
+    padding: .6rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
 
-@media (max-width: 800px) {
+.iwc:hover{
+    padding: .6rem .9rem;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px) {
 
     section{
         display: flex;
@@ -69,15 +87,14 @@ section a:hover{
     }
 
     section a{
-        padding: .6rem 2rem;
+        padding: .6rem 1rem;
         
     }
-
     section a:hover{
-        padding: .6rem 2.2rem;
+        padding: .6rem 1.2rem;
     }
     section a:active{
-        padding: .6rem 2.2rem;
+        padding: .6rem 1.2rem;
     }
 
 }    
