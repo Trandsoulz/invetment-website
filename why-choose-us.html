@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="why-choose-us.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   
     <style>
         #important{
@@ -154,6 +155,8 @@
         </div>
     
         <p style="background-color: black; margin-bottom: 0; color: white; text-align: center; font-weight: 600; padding-bottom: 1rem;" id="major-footer" ></p>
+
+        <i class="fas fa-chevron-circle-up button" onclick="scrollToTop()"></i>
     </footer>
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
@@ -161,6 +164,13 @@
     <script>
         let dd = new Date()
         document.getElementById('major-footer').innerHTML = dd.getFullYear() + ' ' + '&copy All Rights Reserved';
+     
+        function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
     </script>
 
     <!-- <script>
