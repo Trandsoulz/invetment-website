@@ -179,6 +179,10 @@ aside{
             background-position: center;
             padding: .9rem;
     }
+
+    #section2-2{
+        justify-content: space-around;
+    }
 }
 
 
@@ -195,5 +199,9 @@ aside{
 
     .aside{
         display:inline;
+    }
+
+    #section2-2{
+       flex-direction: column;
     }
 }
