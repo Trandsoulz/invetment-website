@@ -80,18 +80,20 @@ body{
 }
 
 .button{
-  color: goldenrod;
+  background-color: goldenrod;
   font-size: 3rem;
   position: fixed;
   bottom: 1rem;
   right: 1rem;
   cursor: pointer;
+  border-radius: 50%;
+  color:  black;
 }
 
 .button:active{
-    color:  black;
     border-radius: 50%;
-    background-color: goldenrod;
+    color: goldenrod;
+    background-color: black;
 }
 
 
