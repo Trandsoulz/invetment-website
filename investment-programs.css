@@ -12,6 +12,7 @@ section{
     display: flex;
     justify-content: space-around;
     margin: 1rem;
+    margin-bottom: 0;
 }
 
 section > div{
@@ -58,6 +59,25 @@ section a:hover{
 .iwc:hover{
     padding: .6rem .9rem;
 }
+
+aside{
+    background-color: white;
+    font-size: 1rem;
+    margin: 2rem;
+    padding-top: 1rem;
+}
+
+aside a{
+    padding: .5rem 1rem;
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+    border-radius: .3rem
+}
+
+
+
+
 
 
 
