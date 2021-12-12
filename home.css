@@ -184,8 +184,8 @@ aside{
         justify-content: space-around;
     }
 
-    #section1 p{
-        margin: auto 0;
+    #section1 {
+        margin: auto;
     }
 }
 
