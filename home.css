@@ -183,6 +183,10 @@ aside{
     #section2-2{
         justify-content: space-around;
     }
+
+    #section1 p{
+        margin-top: 1rem;
+    }
 }
 
 

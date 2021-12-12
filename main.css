@@ -21,7 +21,7 @@ body{
     color: white;
 }
 
-.nav-2 > a{
+#invest{
     text-decoration: none;
     padding: .7rem 1.5rem;
     background-color: goldenrod;
@@ -29,13 +29,26 @@ body{
     border-radius: 5px;
 }
 
-.nav-2 > a:hover{
+#invest:hover{
     background-color: white;
     font-weight: 500;
     color: goldenrod;
 }
 
-.nav-3{
+ ion-icon{
+    color: goldenrod;
+    position: relative;
+    font-size: 1.5rem;
+    padding: .8rem;
+    border-radius: 50%;
+    display: none;
+}
+
+ion-icon:active{
+    background-color: honeydew;
+}
+
+ .nav-3{
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -49,24 +62,13 @@ body{
     text-decoration: none;
     margin: 0 1.5rem;
 
-}
+} 
 
 .nav-3 > a:hover{
-    /* border-bottom: 2px solid goldenrod; */
+    border-bottom: 2px solid goldenrod; 
     background-color: goldenrod;
     padding: 0 .2rem;
     border-radius: 2px;
-}
-
-.menu-toggle-btn{
-    color: goldenrod;
-    position: relative;
-    padding: .8rem;
-    border-radius: 50%;
-}
-
-.menu-toggle-btn:active{
-    background-color: honeydew;
 }
 
 .nav-5{
@@ -140,15 +142,36 @@ footer a:hover{
 
 
 
-.nav-4{
-    display: none;
-}
+
+
+
+
+
+
+
+
 
 @media (max-width: 1000px) {
-
+    
     .nav-2{
+        background-color: black;
+        justify-content: space-between;
+        padding: 0;
+        padding-top: .5rem;
+        justify-content: center;
+    }
+    .nav-2 > p{
         display: none;
     }
+
+    #invest{
+        display: none;
+    }
+
+    ion-icon{
+        display: block;
+    }
+
 
 
 
@@ -163,17 +186,18 @@ footer a:hover{
 
     }
     .nav-3{
-     position: absolute;
-     text-align: center;
-     width: 100%;
-     top: 100px;
-     display: none;
-     padding: 10px 20px;
-     box-sizing: border-box;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 0;
+        left: 0;
     }
 
     .nav-3 a{
-        display: block;
+        text-align: center;
         margin: 10px 0;
     }
 
@@ -182,7 +206,7 @@ footer a:hover{
     }
 
     .nav-5 {
-        display: block;
+        display: none;
     }
     
 }
