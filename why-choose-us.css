@@ -22,6 +22,25 @@ section{
     justify-content: space-around;
 }
 
+@media (max-width: 750px) {
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section div{
+        width: 90%;
+    }
+
+    .section-div{
+        margin: 1rem;
+        padding: 1rem;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        background-color: goldenrod;
+    }
+}
+
 
 @media (max-width: 1000px) {
     #important{
