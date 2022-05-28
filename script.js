@@ -11,4 +11,8 @@ let dd = new Date()
     }
 
 
-    
+
+ document.querySelector('.nav-bar').addEventListener('click', function (){
+     document.querySelector('.responsive').classList.toggle('block')
+ })
+

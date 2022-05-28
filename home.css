@@ -5,11 +5,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(./photos/Dubai-pic-min.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 75vh;
-    background-attachment: fixed;
+   
 }
 
 #section1{
@@ -19,6 +15,12 @@ header{
     align-items: center;
     word-spacing: 5px;
     text-align: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(./photos/Dubai-pic-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    background-attachment: fixed;
 }
 
 #section1 > p{
@@ -132,10 +134,12 @@ aside{
 
 
 @media (max-width: 800px) {
-    header{
+    #section-1{
         height: 85vh;
         background-attachment: local;
     }
+
+    
 
     .main-1{
         display: flex;
@@ -192,7 +196,7 @@ aside{
 
 
 @media (max-width: 550px) {
-    header{
+    #section-1{
         height: 100vh;
     }
 
