@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
 
+html {
+    scroll-behavior: smooth;
+    font-family: 'Signika Negative', sans-serif;
+  }
 
 aside {
     text-align: center;
