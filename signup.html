@@ -5,17 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name='theme-color' content='goldenrod'>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <!-- <link rel="stylesheet" href="home.css"> -->
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="investment-programs.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-   
-    <link rel="shortcut icon" href="./photos/index_removebg_preview_Czb_icon.ico" type="image/x-icon">
-    <title>IQ TRADERS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Sign Up</title>
 </head>
-
 <body>
     
     <header id="home">
@@ -113,62 +111,98 @@
     
        
     </header>
-     <aside>INVESTMENT PACKAGES</aside>
+    <aside>SIGN UP</aside>
 
-     <section>
-        <div  id="pack1">
-            <div>
-           <h3> <font color='goldenrod'>Pack 1</font> </h3>
-           <h3>$300</h3>
-           <h3> <font color='goldenrod'>EARN</font> </h3>
-           <h3>$1,500</h3>
-           </div>
-           <p>Unlimited support</p>
-           <p>Accessible on all devices</p>
-           <p>Easy to use</p>
-           <p>Withdraw directly to your wallet</p>
-           <a href="https://wa.me/+19149289425?text=I-would-like-to-invest-in-pack-1" target=”_blank”>INVEST</a>
-           <a href="https://flutterwave.com/pay/kzhbd2brds0t" target=”_blank” class="iwc">INVEST WITH CARD</a>
-        </div>
 
-        <div  id="pack2">
-            <div>
-           <h3><font color='goldenrod'>Pack 2</font></h3>
-           <h3>$1,000</h3>
-           <h3><font color='goldenrod'>EARN</font></h3>
-           <h3>$5,000</h3>
-            </div>
-           <p>Unlimited support</p>
-           <p>Accessible on all devices</p>
-           <p>Easy to use</p>
-           <p>Withdraw directly to your wallet</p>
-           <a href="https://wa.me/+19149289425?text=I-would-like-to-invest-in-pack-2" target=”_blank”>INVEST</a>
-           <a href="https://flutterwave.com/pay/bwlewz6yb3wf" target=”_blank” class="iwc">INVEST WITH CARD</a>
-        </div>
 
-        <div  id="pack3">
-            <div>
-           <h3><font color='goldenrod'>Pack 3</font></h3>
-           <h3>$20,000</h3>
-           <h3><font color='goldenrod'>EARN</font></h3>
-           <h3>$100,000</h3>
-           </div>
-           <p>Unlimited support</p>
-           <p>Accessible on all devices</p>
-           <p>Easy to use</p>
-           <p>Withdraw directly to your wallet</p>
-           <a href="https://wa.me/+19149289425?text=I-would-like-to-invest-in-pack-3" target=”_blank”>INVEST</a>
-           <a href="https://flutterwave.com/pay/hrzaelnfjgaf" target=”_blank” class="iwc">INVEST WITH CARD</a>
-        </div>
-     </section>
-
-     <main>
-         <a href="https://flutterwave.com/pay/5cg3upgykdlm" target="_blank">INVEST DESIRED AMOUNT</a>
-     </main>
+    <form>
         
 
-    <footer>
+        <div class="form">
+            <div class="row sm-3">
+                <label for="colFormLabel" class="col-sm-2 col-form-label">First Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            </div>
     
+            <br>
+    
+            <div class="row sm-3">
+                <label for="colFormLabel" class="col-sm-2 col-form-label">Last Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            </div>
+    
+            <br>
+    
+                <div class="row sm-3">
+                    <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-6">
+                      <input type="email" class="form-control" id="colFormLabel" placeholder="Email">
+                    </div>
+                  </div>
+                  
+                  <br>
+    
+            <div class="row sm-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-6">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+    
+            <br>
+
+            <button type="submit" class="btn" style="background: goldenrod; color: white;">Sign Up</button>
+        </div>
+
+        
+
+        <!-- <fieldset class="row mb-3">
+          <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                First radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Second radio
+              </label>
+            </div>
+            <div class="form-check disabled">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+              <label class="form-check-label" for="gridRadios3">
+                Third disabled radio
+              </label>
+            </div>
+          </div>
+        </fieldset> -->
+        <!-- <div class="row mb-3">
+          <div class="col-sm-10 offset-sm-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Example checkbox
+              </label>
+            </div>
+          </div>
+        </div> -->
+       
+      </form>
+
+
+
+
+
+
+    <footer>
+<!--     
         <div id="footer">
             <div>
                 <h3><font color='goldenrod'>QUICK LINKS</font></h3>
@@ -180,7 +214,7 @@
         
             <div>
                 <h3><font color='goldenrod'>HELP & SUPPORT</font></h3>
-                <p>TERMS AND CONDITIONS <br> ANTI SPAM POLICY <br> PRIVACY POLICY <br> RISK CLOSURE <br></p>
+                <p>TERMS AND CONDITIONS <br> ANTI SPAM POLICY <br> PRIVACY POLICY <br> RISK CLOSURE <br> </p>
             </div>
         
             <div>
@@ -188,8 +222,9 @@
                     <h3> <font color='goldenrod'>CONTACT US</font></h3>
                     <p>SUPPORT@IQOPTIONTRADE.COM <br> MON-SUN 24/7 <br> ADDRESS:</p>
                     <h4 style="margin-bottom: .3rem;"> <font color='goldenrod'>HEAD OFFICE:</font></h4>
-                    <p style="margin-top: 0;"> Mannerheimintie 20 B,F1-00100, <br>
-                        Helsinki, Finland.
+                    <p style="margin-top: 0;"> M107 Hamilton Road, <br>
+                        Mount Vernon, Glasgow G32 9QN, <br>
+                        Scotland.
                     </p>
         
                     <h4 style="margin-bottom: .3rem;"> <font color='goldenrod'>BRANCH OFFICE:</font></h4>
@@ -222,23 +257,23 @@
                 </p>
             </div>
         
-        </div>
+        </div> -->
     
-        <div style="border: 1.5px solid white; width: 83%; margin: 0 auto;">
+        <!-- <div style="border: 1.5px solid white; width: 83%; margin: 0 auto;"> -->
     
         </div>
     
         <p style="background-color: black; margin-bottom: 0; color: white; text-align: center; font-weight: 600; padding-bottom: 1rem;" id="major-footer" ></p>
-
+    
         <i class="fas fa-chevron-circle-up button" onclick="scrollToTop()"></i>
     </footer>
-
-
 
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -1,0 +1,38 @@
+body{
+    background: red;
+}
+aside{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+
+form{
+    /* width: 80%;
+    margin: 0 auto;  */
+
+    /* display: grid;
+    place-items: center; */
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    
+}
+
+.form{
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 3rem 1rem;
+
+    
+}
+
+
+
+
+
